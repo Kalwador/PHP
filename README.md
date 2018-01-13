@@ -6,3 +6,6 @@
 * MySQL
 * BCrypt
 * Mail Sender
+* HTML 5
+* CSS 3
+* Bootstrap
