@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1d2124;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer > .row1 {
+    display: inline-block;
+}
+.footer > .row1 > a > .logo > img{
+    height: 50px;
+    margin-bottom: 5px;
+}
+.a {
+    text-decoration: none;
+}
+.margin-right-footer {
+    margin-right: 30px;
+}

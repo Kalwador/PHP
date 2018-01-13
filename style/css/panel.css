@@ -1,0 +1,325 @@
+.row{
+    overflow: hidden; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.flex-bottom {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    width: 100%;
+    margin-top: 125px;
+}
+
+.sidePanel {
+    background-color: #2e3133;
+    color: white;
+    height: 100%;
+    min-height: 500px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+/* .sidePanel > .actions > .header > .logo > a > img {
+    height: 50px;
+    padding-left: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+.sidePanel > .actions > ol {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 20px;
+    min-height: 750px;
+    /* margin-bottom: 400px; */
+}
+
+.sidePanel > .actions > ol > li {
+    padding: 10px 0 10px 0;
+}
+
+.sidePanel > .actions > ol > li > a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.sidePanel > .actions > ol > li:hover > a {
+    color: coral !important;
+}
+
+.contentContainer {
+    padding-right: 15px;
+    padding-left: 15px; 
+    padding-bottom: 150px;
+}
+
+.contentContainer form {
+    max-height: 80vh;
+}
+
+.contentContainer > h3 {
+    padding-left: 7%;
+}
+
+/*All users*/
+.containter > table > td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.status {
+    width: 100px;
+}
+
+.delete {
+    width: 100px;
+}
+
+/*Add New Course / Change Password*/
+#addNewCourse {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#changePassword {
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    padding-top: 15px;
+}
+
+.pages {
+    text-align: center;
+}
+.pages > .pagination >.active > a{
+    z-index: 0;
+}
+
+#deleteFromCart {
+    border: 1px solid #2e3133;
+    background-color: #343434;
+    color: white;
+}
+.deleteFromCart:hover {
+    color: #2ec1f3;
+}
+
+#paypal {
+    text-align: center  ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#paypal:hover {
+    transform: scale(1.05);
+}
+#testPayPal > button{
+
+    border:1px solid #FFA826; -webkit-border-radius: 25px; -moz-border-radius: 25px;border-radius: 25px;font-size:13px;font-family:lucida sans unicode, lucida grande, sans-serif; padding: 3px 3px 3px 3px; text-decoration:none; display:inline-block;text-shadow: 0px 0px 0 rgba(0,0,0,0.3);font-weight:bold; color: #003F61;
+    background-color: #FFFFAB; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFAB), to(#FFAE45));
+    background-image: -webkit-linear-gradient(top, #FFFFAB, #FFAE45);
+    background-image: -moz-linear-gradient(top, #FFFFAB, #FFAE45);
+    background-image: -ms-linear-gradient(top, #FFFFAB, #FFAE45);
+    background-image: -o-linear-gradient(top, #FFFFAB, #FFAE45);
+    background-image: linear-gradient(to bottom, #FFFFAB, #FFAE45);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFAB, endColorstr=#FFAE45);
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////!*#MODAL*!*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 0.7; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+    padding-top: 3%;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.modalContainer {
+    padding-left: 10%;
+    width: 90%;
+    padding-bottom: 5%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+#modalHeader {
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.loginInput, #modalLoginButton {
+    color: #FFF;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 5% 10px 5%;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////!*#MEDIA#*!*/
+@media (max-width: 320px) {
+    .contentContainer {
+        /* width: 100%; */
+    }
+
+    .sidePanel {
+        display: none;
+    }
+    .toHideInSmall {
+        display: none;
+    }
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 640px) {
+    .contentContainer {
+        /* width: 100%; */
+    }
+    .toHideInSmall {
+        display: none;
+    }
+
+    .sidePanel {
+        display: none;
+    }
+
+    .modal-content {
+        width: 70%;
+    }
+    #addNewCourse {
+        width: 100%;
+    } 
+    #changePassword {
+        width: 70%;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .contentContainer {
+        /* width: 100%; */
+    }
+
+    .sidePanel {
+        display: none;
+    }
+
+    .modal-content {
+        width: 60%;
+    }
+
+    #addNewCourse {
+        width: 88%;
+    }
+    #changePassword {
+        width: 50%;
+        margin: 0 auto;
+        transform: translate(0, 0);
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contentContainer {
+        /* width: 80%; */
+    }
+
+    .modal-content {
+        width: 50%;
+    }
+    #addNewCourse {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .contentContainer {
+        /* width: 80%; */
+    }
+
+    .modal-content {
+        width: 40%;
+    }
+    #addNewCourse {
+        width: 70%;
+        max-width: 700px;   
+    }
+}

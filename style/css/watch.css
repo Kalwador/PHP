@@ -1,0 +1,8 @@
+body {
+    background-color: #e9e9e9 !important;
+}
+.contentContainer {
+    width: auto;
+    height: auto;
+    overflow:auto;
+}

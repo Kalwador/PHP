@@ -1,0 +1,169 @@
+body {
+    background-color: #fff;
+    color: #ffffff;
+    margin: 0 !important;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/*///////////////////////////////////////////////////////////////////////////BANNER*/
+.banner {
+}
+
+.banner > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////CONTAINER FOR GRID*/
+.gridContainer {
+    color: #3c3c3c;
+}
+
+.gridContainer > h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gridContainer > .row > .thumbshell {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    position: relative;
+    transition: .1s ease-in-out;
+}
+
+.gridContainer > .row > .thumbshell:hover {
+    background-color: #eee;
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+.gridContainer > .row > .thumbshell > h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.gridContainer > .row > .thumbshell > img {
+    width: 70%;
+    height: 120px;
+}
+
+.gridContainer > .row > .thumbshell > .price {
+    position: absolute;
+    bottom: 0px;
+    left: 28%;
+}
+
+.gridContainer > .row > .thumbshell > .price > strike {
+    color: #a81800;
+}
+
+.gridContainer > .row > .thumbshell > .price > .actualPrice {
+    color: #a88500;
+}
+
+.gridContainer > .row > .thumbshell > button {
+    transform: translate(50%, 0%);
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    width: 150px;
+    padding: 12px 0 0 20px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////!*#MODAL*!*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+    padding-top: 3%;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #232323;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.modalImage {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.modalImage > .avatar {
+    width: 100px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////!*#MEDIA#*!*/
+@media (max-width: 320px) {
+    .gridContainer > .row > .thumbshell > a > img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 640px) {
+    .banner > img {
+        display: none;
+    }
+
+    .gridContainer > .row > .thumbshell > a > img {
+        width: 80%;
+    }
+
+    .gridContainer > .row > .thumbshell {
+        height: 300px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+
+    .gridContainer > .row > .thumbshell {
+        height: 300px;
+    }
+
+    .gridContainer > .row > .thumbshell > a > img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .gridContainer > .row > .thumbshell {
+        height: 310px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .gridContainer > .row > .thumbshell {
+        height: 310px;
+    }
+}

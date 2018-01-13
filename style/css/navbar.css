@@ -1,0 +1,509 @@
+#spaceForNavbar {
+    background-color: #1d2124;
+    height: 55px;
+}
+
+.myNav {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    background-color: rgba(21, 21, 21, 0.9);
+    padding: 10px 0 10px 5%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    font-size: 18px;
+}
+
+/*//////////////LOGO*/
+.myNav > header > .logo > img {
+    float: left;
+    width: 35px;
+}
+
+.myNav > header > .name {
+    background-image: -webkit-gradient(linear,
+    left top, right top,
+    from(#20d2b6),
+    to(#316cff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+    color: #65b6bf;
+    padding: 7px 0px 0px 10px;
+}
+
+.myNav > header > .name {
+    text-decoration: none;
+}
+
+/*//////////////CATEGORIES*/
+.myNav > .categories {
+    text-align: center;
+    float: left;
+    padding: 0 0 0 0;
+    width: 150px;
+    margin-top: 7px;
+}
+
+.myNav > .categories > a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.myNav > .categories > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -6px;
+    display: none;
+    text-align: left;
+}
+
+.myNav > .categories:hover > ul {
+    font-size: 22px;
+    display: block;
+}
+
+.myNav > .categories > ul > li {
+    width: 150px;
+    background-color: rgba(24, 25, 26, 0.9);
+    text-align: center;
+    font-size: 18px;
+    z-index: 100;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.myNav > .categories > ul > li:hover {
+    background-color: #1d2124;
+    color: coral !important; /*nie dziala dlaczego??????????????????????????//*/
+}
+
+.myNav > .categories > ul > li:first-child {
+    margin-top: 18px;
+}
+
+.myNav > .categories > ul > li:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 7px;
+}
+
+.myNav > .categories > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*///////////////SEARCH*/
+.myNav > .searchField > form > .input-group {
+    float: left;
+    margin: 0;
+    width: 40%;
+    padding: 0 0 0 2%;
+}
+
+.myNav > .searchField > form > .input-group > .input-group-btn > .btn-secondary {
+    background-color: #2e3133;
+    color: white;
+}
+
+.myNav > .searchField > form > .input-group > .input-group-btn > .btn-secondary:hover {
+    color: #2ec1f3;
+}
+
+/*////////////////BUTTONS ZALOGUJ ZAREJESTRUJ*/
+.myNav > .buttons {
+    float: right;
+    padding-right: 20px;
+}
+
+.myNav > .buttons > .zaloguj {
+    margin-right: 10px;
+    background-color: #1b1e21;
+}
+
+.myNav > .buttons > .zaloguj:hover {
+    color: #7d7d7d;
+}
+
+.myNav > .buttons > a > .zarejestruj {
+    background-color: #03a9f4;
+    border-color: #03a9f4
+}
+
+.myNav > .buttons > a > .zarejestruj:hover {
+    color: #035b83;
+}
+
+/*///////////////////////KOSZYK*/
+.cart {
+    float: left;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+.cart > a:hover {
+    text-decoration: none;
+}
+
+.deleteFromCart {
+     border: 1px solid #2e3133;
+     background-color: #343434;
+     color: white;
+ }
+.deleteFromCart:hover {
+    color: #2ec1f3;
+}
+
+#payForCart {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    background: -moz-linear-gradient(
+            top,
+            #2ec1f3 0%,
+            #035b83);
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#2ec1f3),
+            to(#035b83));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #737b8d;
+    -moz-box-shadow:
+            0px 5px 5px rgba(000,000,000,0.1),
+            inset 0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:
+            0px 5px 5px rgba(000,000,000,0.1),
+            inset 0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:
+            0px 5px 5px rgba(000,000,000,0.1),
+            0px 5px 5px rgba(243, 242, 242, 0.45),
+            inset 0px 1px 0px rgba(255,255,255,0.5);
+    text-shadow:
+            0px 1px 3px rgba(000,000,000,0.3),
+            0px 0px 0px rgba(255,255,255,0);
+    /*display: table;*/
+    /*position: static;*/
+    /*clear: both;*/
+}
+
+#payForCart:hover {
+    background: -moz-linear-gradient(
+            top,
+            #0056f3 0%,
+            #035b83);
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#0056f3),
+            to(#035b83));
+}
+/*///////////////////PORFIL DROP DOWN*/
+.profilText {
+}
+
+.profilDropdown {
+    text-align: center;
+    /*float: left;*/
+    width: 180px;
+    padding: 7px 0 0 0;
+}
+
+.profilDropdown > a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.profilDropdown > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    text-align: left;
+    margin-top: -6px;
+}
+
+.profilDropdown:hover > ul {
+    font-size: 22px;
+    display: block;
+}
+
+.profilDropdown > ul > li {
+    width: 150px;
+    background-color: rgba(24, 25, 26, 0.9);
+    text-align: center;
+    font-size: 18px;
+    z-index: 100;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.profilDropdown > ul > li:hover {
+    background-color: #1d2124;
+    color: coral; /*// nie dziala dlaczego ??*/
+}
+
+.profilDropdown > ul > li:first-child {
+    margin-top: 18px;
+}
+
+.profilDropdown > ul > li:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 7px;
+}
+
+.profilDropdown > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hamburger {
+    border-color: #2ec1f3;
+    background-color: #2e3133;
+    color: white;
+}
+#hamburger:hover {
+    color: #2ec1f3;
+}
+
+/*/////////////////SMALL MENU*/
+.myNav > .navbar-header {
+    float: right;
+    padding-right: 5%;
+}
+
+#smallMenu {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(27, 30, 33, 1);
+    z-index: 100;
+    text-align: center;
+    font-size: 18px;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#modalHeader {
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.loginInput, #modalLoginButton {
+    color: #FFF;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 5% 10px 5%;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+
+/*//////////////LOGIN*/
+#modalLoginButton {
+    font-size: 15px;
+    background-color: #03a9f4;
+}
+
+#modalForgotPassword {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+#modalForgotPassword :hover {
+
+}
+
+#modalForgotPassword :visited {
+    text-decoration: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+    padding-top: 3%;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.modalImage {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.modalImage > .avatar {
+    width: 100px;
+}
+
+@media (max-width: 320px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 640px) {
+    .myNav > header {
+        display: none;
+    }
+
+    .myNav > .categories {
+        display: none;
+    }
+
+    .myNav > .searchField > form > .input-group {
+        width: 70%;
+    }
+
+    .myNav > .buttons {
+        display: none;
+    }
+
+    .myNav > .buttons {
+        display: none;
+    }
+
+    .modal-content {
+        width: 70%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .myNav > header {
+        display: none;
+    }
+
+    .myNav > .searchField > form > .input-group {
+        width: 50%;
+    }
+
+    .myNav > .buttons {
+        display: none;
+    }
+
+    .modal-content {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    #smallMenu {
+        display: none !important;
+    }
+
+    .myNav > header {
+        display: none;
+    }
+
+    .myNav > .searchField > form > .input-group {
+        width: 50%;
+    }
+
+    .myNav > .navbar-header {
+        display: none;
+    }
+
+    .profilText {
+        display: none;
+    }
+
+    .cartText {
+        display: none;
+    }
+
+    .modal-content {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    #smallMenu {
+        display: none;
+    }
+
+    .myNav > .navbar-header {
+        display: none;
+    }
+
+    .modal-content {
+        width: 40%;
+    }
+}
