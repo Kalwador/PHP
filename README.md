@@ -1,7 +1,20 @@
 # Academic project made for subject "Internet Applications" 
-## Project imitates small web service with online courses to watch. 
 
-### Used technologies and tools:
+#### Project imitates small web service with online courses to watch. 
+#### Site prezentation: http://www.kalwador.pl/kursy/
+```javascript
+User test account:
+login: user
+password: testtest
+```
+
+```javascript
+Admin test account:
+login: admin
+password: testtest
+```
+
+##### Used technologies and tools:
 * PHP 7
 * MySQL
 * BCrypt
