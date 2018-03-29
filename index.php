@@ -71,7 +71,7 @@ try {
             }
             ?>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbshell">
-                <img src="https://i1.ytimg.com/vi/<?php echo substr($randomCourse[5], 32); ?>/0.jpg" alt="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/1280px-No_image_available_600_x_450.svg.png" alt="image">
                 <h4><?php echo $randomCourse[1]; ?></h4>
                 <p><?php echo $randomCourse[2]; ?></p>
                 <?php
@@ -103,7 +103,7 @@ try {
             }
             ?>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbshell">
-                <img src="https://i1.ytimg.com/vi/<?php echo substr($randomCourse[5], 32); ?>/0.jpg" alt="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/1280px-No_image_available_600_x_450.svg.png" alt="image">
                 <h4><?php echo $randomCourse[1]; ?></h4>
                 <p><?php echo $randomCourse[2]; ?></p>
                 <?php
@@ -135,7 +135,7 @@ try {
             }
             ?>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 thumbshell">
-                <img src="https://i1.ytimg.com/vi/<?php echo substr($randomCourse[5], 32); ?>/0.jpg" alt="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/1280px-No_image_available_600_x_450.svg.png" alt="image">
                 <h4><?php echo $randomCourse[1]; ?></h4>
                 <p><?php echo $randomCourse[2]; ?></p>
                 <?php

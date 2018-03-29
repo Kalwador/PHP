@@ -21,5 +21,4 @@ if (isset($_GET['key'])) {
         echo '<br/>Informacja developerska:' . $e;
     }
 } else {
-
 }

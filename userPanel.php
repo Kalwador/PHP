@@ -297,13 +297,13 @@ try {
                                 $row = $rows[$i];
                                 ?>
                                 <tr>
-                                    <td><?php echo '<img src="https://i1.ytimg.com/vi/' . substr($row[5], 32) . '/0.jpg" style="height: 40px">' ?></td>
+                                    <td><?php echo '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/1280px-No_image_available_600_x_450.svg.png" style="height: 40px">' ?></td>
                                     <td><?php echo $row[1] ?></td>
                                     <td class="toHideInSmall"><?php echo $row[2] ?></td>
                                     <td><?php echo $row[4] ?></td>
                                     <td>
                                         <?php
-                                        echo '<a href="watch.php?video=' . $row[0] . '"><button type="button" class="btn btn-primary">START</button></a>';
+                                        echo '<a href="watch.php?video=tutajLinkDoMaterialuVideo"><button type="button" class="btn btn-primary">START</button></a>';
                                         ?>
                                     </td>
                                 </tr>

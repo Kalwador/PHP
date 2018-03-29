@@ -130,7 +130,7 @@ try {
                     ?>
                     <form method="post" class="col-xs-6 col-md-4 col-lg-3 thumbshell">
                         <a href="<?php echo $tempCourse[5]; ?>">
-                            <img src="https://i1.ytimg.com/vi/<?php echo substr($tempCourse[5], 32); ?>/0.jpg">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/1280px-No_image_available_600_x_450.svg.png">
                         </a>
                         <h4><?php echo $tempCourse[1]; ?></h4>
                         <p><?php echo substr($tempCourse[2], 0, 38); ?>...</p>
